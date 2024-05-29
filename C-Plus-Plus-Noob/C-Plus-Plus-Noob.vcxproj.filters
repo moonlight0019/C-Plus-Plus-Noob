@@ -21,5 +21,13 @@
     <ClCompile Include="01_Helloworld.cpp">
       <Filter>源文件\Noob_Episode_01</Filter>
     </ClCompile>
+    <ClCompile Include="mehtod.cpp">
+      <Filter>源文件\Noob_Episode_01</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="method.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

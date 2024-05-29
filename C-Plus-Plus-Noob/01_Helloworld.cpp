@@ -4,10 +4,13 @@
 #include <iostream> //在使用cout时需要包含此头文件
 using namespace std;
 #include <string> //在使用string类型时需要包含此头文件
+#include "method.h"
 
 //常量，一旦修改会报错：表达式必须是可修改的左值
 #define day 7
 const int month = 12;
+
+int sxhs();
 
 int main()
 {
@@ -67,10 +70,24 @@ int main()
     cout << "bool类型所占的空间=" << sizeof(flag) << endl;
     cout << "flag = " << flag << endl;
 
+    //do-while语句,在屏幕中输出0-9
+    cout << "do-while语句，输出0-9" << endl;
+    do_while_demo();
+
+    //输出水仙花数
+    cout << "输出水仙花数" << endl;
+    sxhs();
+
+    //输出乘法口诀表
+    cout << "输出乘法口诀表" << endl;
+    multiplication_table();
+
     system("pause");
 
     return 0;
 }
+
+
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
